@@ -12,7 +12,7 @@
 
 
 .aladin_header_wrap{
-    width: 1903px;
+    width: 100%;
     height: 157px;
     background-color: green;
     margin: 0 auto;
@@ -21,10 +21,11 @@
 
 
 .aladin_header1 {
-    width: 1903px;
+    width: 100%;
     height: 40px;
     background-color: black;
     margin: 0 auto;
+
 }
 
 
@@ -41,17 +42,15 @@
     height: 40px;
     background-color: brown;
 
-}
-
-.aladin_headmenu ul{
-    display: flex;
-}
-
-.aladin_headmenu li{
-    margin: 0 auto;
-    margin-top: 10px;
-    color: #FFF;
-    font-size: 13px;
+    ul{
+        display: flex;
+    }
+    li{
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #FFF;
+        font-size: 13px;
+    }
 }
 
 .aladin_header_login{
@@ -78,15 +77,106 @@
     height: 90px;
     background-color: blue;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+  
 }
 
-.aladin_search{
-    width: 540px;
-    height: 90px;
-    background-color: red;
+.aladin_headersearch{
+    width: 535px;
+    height: 40px;
+    background-color: purple;
     margin: 0 auto;
+    position: relative;
+    dl{
+        position: absolute;
+        top:50%; left:20px;
+        transform: translateY(-50%);
+        color: #2f9ddc;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .img1{
+        width: 535px;
+        height: 40px;
+        margin: 0 auto;
+        position: absolute;
+    }
+
+    button{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: transparent;
+        color: #fff;
+        border: 0;
+        font-size: 15px;
+        cursor: pointer;
+        right: 15px;
+
+    }
+.img2{position: absolute;
+    top: 20px;
+    left: 100px;
+    transform: translateY(-50%);}
+
+
+    .img3{position: absolute;
+        top: 20px;
+        right: 80px;
+        transform: translateY(-50%);
+    }
+}
+
+
+.ad box {border: none;
+
+}
+
+
+.aladin_header_bottom{
+    width: 1030px;
+    height: 30px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+.l_menu{
+    display: flex;
+    align-items: center;
+    color: #0f4e8a;
+    font-weight: bold;
+}
+
+.l_menu li{
+    margin: 0 6px;
+    font-size: 15px;
     
 }
+
+.r_menu{
+    display: flex;
+    font-size: 13px;
+    color: #dd2483;
+    font-weight: bold;
+    padding: 0 6px 3px 8px;
+    line-height: 25px;
+}
+
+.img{
+    width: 170px;
+    height: 250px;
+}
+
+}
+
 
 .aladin_first_middle{
     width: 1030px;
@@ -95,13 +185,110 @@
     margin: 0 auto;
 }
 
+.aladin_first_middlesub{
+    width: 1020px;
+    height: 385px;
+    background-color: #dd2483;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+.imgbox{
+    width: 170px;
+    height: 250px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+}
+
+.aladin_first_middlesub_bottom{
+    width: 1030px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.aladin_hoverbox{
+    width: 110px;
+    height: 34px;
+    font-size: 13px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    &.active{
+        background-color: #3C5980;
+        // border: 2px solid #3C5980;
+        border-radius: 10px;
+        
+
+    }
+
+    h3{
+        line-height: 33px;
+        font-size: 13px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+
+   
+}
 
 .aladin_first_book{
     width: 1030px;
     height: 385px;
     background-color: black;
     margin: 0 auto;
+    display: flex;
+
+.left{
+    width: 687px;
+    height: 380px;
+    background-color: #dd2483;
 }
+
+.right{
+    width: 305px;
+    height: 350px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+}
+
+
+.aladin_rank{
+    width: 1030px;
+    height: 258px;
+    background-color: chocolate;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    .left{
+        width: 836px;
+        height: 258px;
+        background-color: crimson;
+    }
+    
+.right{
+    width: 190px;
+    height: 206px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+
+}
+
+
 
 
 .aladin_first_tab{
@@ -118,7 +305,12 @@ width: 1030px;
 height: 390px;
 margin: 0 auto;
 background-color: blue;
+
 }
+
+
+
+
 
 
 .aladin_third_middle{
