@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 ul, li, ol {
@@ -184,9 +189,12 @@ a {
 }
 .aladin_first_middlesub .imgbox {
   width: 170px;
-  height: 250px;
+  height: 230px;
   background-color: yellow;
   margin: 0 auto;
+}
+.aladin_first_middlesub .imgbox img {
+  width: 100%;
 }
 
 .aladin_first_middlesub_bottom {
@@ -243,6 +251,7 @@ a {
   background-color: chocolate;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .aladin_rank .left {
@@ -250,23 +259,11 @@ a {
   height: 258px;
   background-color: crimson;
 }
-.aladin_rank .right {
-  width: 190px;
-  height: 206px;
-  background-color: teal;
-  margin: 0 auto;
-}
-
-.aladin_rank .left {
-  width: 836px;
-  height: 258px;
-  background-color: crimson;
-}
 .aladin_rank .left h3 {
-  font-size: 15px;
+  width: 100%;
+  font-size: 18px;
   color: #333;
   font-family: "Noto Sans KR", sans-serif;
-  margin-bottom: 15px;
 }
 .aladin_rank .left ol {
   height: 208px;
@@ -276,25 +273,44 @@ a {
 }
 .aladin_rank .left li {
   display: flex;
-  width: 180px;
+  width: 220px;
   height: 48px;
-  font-size: 13px;
-  margin-right: 15px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-right: 25px;
   align-items: center;
   border-bottom: 1px solid #EAEAEA;
 }
-
-.aladin_first_tab {
-  width: 100%;
-  height: 63px;
-  background-color: chartreuse;
+.aladin_rank .left .big1 {
+  width: 250px;
+  height: 100px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
+  margin-right: 55px;
 }
-.aladin_first_tab img {
+.aladin_rank .left .big {
+  color: pink;
+  margin: 0 5px;
+}
+.aladin_rank .left span {
+  color: black;
+  margin: 0 5px;
+}
+.aladin_rank .right {
+  width: 190px;
+  height: 206px;
+  background-color: teal;
+  margin: 0 auto;
+}
+
+.aladin_minisize {
   width: 100%;
-  height: 63px;
+  height: 130px;
+  background-color: rgb(246, 208, 222);
+}
+
+.aladin_minisize1 {
+  width: 1030px;
+  height: 130px;
   margin: 0 auto;
 }
 
@@ -307,22 +323,61 @@ a {
 
 .aladin_third_middle {
   width: 1030px;
-  height: 260px;
+  height: 280px;
   background-color: gold;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.aladin_third_middle h3 {
+  font-size: 22px;
+  color: #333;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.aladin_third_middle .slide {
+  width: 300%;
+  overflow: hidden;
+}
+.aladin_third_middle .slide li {
+  width: 11.11%;
+  height: 280px;
+  float: left;
+}
+.aladin_third_middle .slide li img {
+  width: 100%;
+  height: 100%;
+}
+.aladin_third_middle span {
+  position: absolute;
+  top: 50%;
+  display: block;
+  font-size: 38px;
+  color: #fff;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  height: 50px;
+  transform: translateY(-50%);
+}
+.aladin_third_middle span:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+.aladin_third_middle .prev {
+  left: 0;
+  border-radius: 10px;
+  padding: 0 8px 0 2px;
+}
+.aladin_third_middle .next {
+  right: 0;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 
 .aladin_first_image {
   width: 1030px;
   height: 130px;
   background-color: purple;
-  margin: 0 auto;
-}
-
-.aladin_fourth_middle {
-  width: 1030px;
-  height: 400px;
-  background-color: red;
   margin: 0 auto;
 }
 
