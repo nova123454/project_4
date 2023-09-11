@@ -10,19 +10,67 @@ $(".prev").click(function () {
 });
 
 $(".next").click(function () {
-  $(".slide").stop().animate({ marginLeft: "-33.33%" }, 500, function () {
+  $(".slide")
+    .stop()
+    .animate({ marginLeft: "-33.33%" }, 500, function () {
       $(".slide li:first").appendTo(".slide");
       $(".slide").css({ marginLeft: 0 });
     });
 });
+
+
+
+
+$(function () {
+  $('.aladin_hoverbox').click(function () {
+    let idx=$(this).index();
+    console.log(idx)
+
+    $(".aladin_first_middle .sub").eq(idx).fadeIn().siblings('.sub').hide();
+  });
+
+  // $('.aladin_hoverbox:nth-of-type(2)').click(function () {
+  //   $(".aladin_first_middlesub1").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(3)').click(function () {
+  //   $(".aladin_first_middlesub2").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(4)').click(function () {
+  //   $(".aladin_first_middlesub3").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(5)').click(function () {
+  //   $(".aladin_first_middlesub4").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(6)').click(function () {
+  //   $(".aladin_first_middlesub5").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(7)').click(function () {
+  //   $(".aladin_first_middlesub6").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(8)').click(function () {
+  //   $(".aladin_first_middlesub7").fadeIn().siblings('.sub').hide();
+  // });
+
+  // $('.aladin_hoverbox:nth-of-type(9)').click(function () {
+  //   $(".aladin_first_middlesub8").fadeIn().siblings('.sub').hide();
+  // });
+});
+
+
+
 
 $.ajax({
   method: "GET",
   url: "https://dapi.kakao.com/v3/search/book?target=title",
   data: { query: "경제" },
   headers: { Authorization: "KakaoAK 45941751e295b1ee1621bc1864a3716e" },
-})
-.done(function (msg) {
+}).done(function (msg) {
   console.log(msg);
 
   let origin = msg.documents;
@@ -41,12 +89,9 @@ $.ajax({
     $(".imgbox")
       .eq(i)
       .append("<h3>" + data[i].title + "</h3>");
-    $(".imgbox")
-      .eq(i)
-      .append("<h6>" + data[i].authors[0] + "</h6>");
 
     var str = data[i].contents;
-    var str2 = str.substring(0, 20);
+    var str2 = str.substring(0, 0);
 
     $(".imgbox")
       .eq(i)
