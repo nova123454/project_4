@@ -30,10 +30,11 @@
 
 
 .aladin_header1_in{
-    width: 1030px;
+    width: 100%;
     height: 40px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     background-color: #33afe9;
 }
 
@@ -179,22 +180,21 @@
 .aladin_first_middle{
     width: 1030px;
     height: 448px;
-    background-color: cornflowerblue;
     margin: 0 auto;
+    border: 1px solid #0f4e8a;
+    border-radius: 5px;
 }
 
 .aladin_first_middlesub{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
 
 .imgbox{
-    width: 150px;
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
 }
@@ -211,13 +211,9 @@ height: 40px;}
 
 
 button{
-    background: white;
-    width: 100px;
-    height: 30px;
-    line-height: 22px;
-    margin-top: 20px;
-    padding: 0;
-    border: none;
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
     
 }
 
@@ -227,7 +223,6 @@ button{
 .aladin_first_middle{
     width: 1030px;
     height: 448px;
-    background-color: cornflowerblue;
     margin: 0 auto;
 }
 
@@ -236,19 +231,36 @@ button{
 .aladin_first_middlesub1{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox1{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
 }
+
+.imgbox1 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
+}
+
+
+
 }
 
 
@@ -257,18 +269,32 @@ button{
 .aladin_first_middlesub2{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox2{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
+}
+
+.imgbox2 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
 }
 }
 
@@ -279,18 +305,31 @@ button{
 .aladin_first_middlesub3{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox3{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
+}
+.imgbox3 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
 }
 }
 
@@ -300,37 +339,76 @@ button{
 .aladin_first_middlesub4{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox4{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
 }
+
+.imgbox4 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    // background: yellow;
+    // opacity: 0.6;
+    // width: 150px;
+    // height: 40px;
+    // line-height: 22px;
+    // margin-top: 10px;
+    // margin-left: 5px;
+    // border-radius: 20px;
+    // padding: 0;
+    // border: none;
+
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+   
+}
+
 }
 
 
 .aladin_first_middlesub5{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox5{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
+}
+.imgbox5 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
 }
 }
 
@@ -338,19 +416,34 @@ button{
 .aladin_first_middlesub6{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox6{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
 }
+
+.imgbox6 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
+}
+
 }
 
 
@@ -358,36 +451,64 @@ button{
 .aladin_first_middlesub7{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox7{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
 }
+
+.imgbox7 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
+    
+}
+
 }
 
 .aladin_first_middlesub8{
     width: 1020px;
     height: 385px;
-    background-color: #dd2483;
     margin: 0 auto;
     display: flex;
     align-items: center;
     display: none;
 
-.imgbox{
-    width: 150px;
+.imgbox8{
+    width: 170px;
     height: 180px;
-    background-color: yellow;
     margin: 0 auto;
     margin-bottom: 150px;
+}
+
+.imgbox8 img{
+    width: 100%;
+
+}
+
+h3{ margin-top: 5px;
+    font-size: 12px;
+height: 40px;}
+
+button{
+    background: #efeff8;
+    border-color:  #efeff8;
+    color: #333;
 }
 }
 
@@ -399,7 +520,8 @@ button{
 .aladin_first_middlesub_bottom{
     width: 1030px;
     height: 60px;
-    background-color: blueviolet;
+    background-color: #0f4e8a;
+    opacity: 0.9;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -438,7 +560,6 @@ button{
 .aladin_first_book{
     width: 1030px;
     height: 385px;
-    background-color: black;
     margin: 0 auto;
     display: flex;
 
@@ -446,22 +567,22 @@ button{
     width: 687px;
     height: 380px;
     background-color: #dd2483;
+
 }
 
 .right{
     width: 305px;
     height: 350px;
-    background-color: brown;
     margin: 0 auto;
 }
-
 }
+
+
 
 
 .aladin_rank{
     width: 1030px;
     height: 258px;
-    background-color: chocolate;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -470,14 +591,13 @@ button{
     .left{
         width: 836px;
         height: 258px;
-        background-color: crimson;
+
         h3{
             width: 100%;
             font-size: 18px;
             color: #333;
             font-family: 'Noto Sans KR', sans-serif;
            
-        
         }
         
         ol{
@@ -496,8 +616,8 @@ button{
             margin-right: 25px;
             align-items: center;
             border-bottom: 1px solid #EAEAEA;
+            font-weight: bold;
             
-           
         }
         
         
@@ -555,9 +675,28 @@ button{
 width: 1030px;
 height: 390px;
 margin: 0 auto;
-background-color: blue;
+display: flex;
+flex-wrap: wrap;
 
+
+h3{width: 100%;
+font-size: 24px;
+margin-bottom: 10px;
+margin-top: 10px;}
+
+
+.box{
+    width: 186px;
+    height: 310px;
+    margin: 0 auto;
+    margin: 10px;
+
+h6{font-size: 17px;
+    color: #333;
 }
+
+img{width: 100%;}
+}}
 
 
 
@@ -664,7 +803,8 @@ border-bottom: 1px solid #E6E6E6;
     position: absolute;
     left: -95px;
     top: 2px;
-}
+    border-radius: 50%;
+    overflow: hidden;
 
 .toptext{ margin: 0 auto;
  border: none;
@@ -674,7 +814,7 @@ border-bottom: 1px solid #E6E6E6;
     p{font-size: 13px;
         margin: 10px;}
 }
-
+}
 
 
 .fivemeetbottom{
@@ -690,6 +830,8 @@ border-bottom: 1px solid #E6E6E6;
     position: absolute;
     left: -95px;
     top: 2px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .bottomtext{ margin: 0 auto;
@@ -739,17 +881,16 @@ font-weight: bold;}
 
 .service_2{
     width: 300px;
-    height: 150px;
+    // height: 150px;
     margin: 0 auto;
     margin: 10px;  
     
 
     .search{
         position: relative;
-        width: 280px;
+        width: 200px;
     }
     input{
-        width: 100%;
         border: 1px solid #bbb;
         border-radius: 2px;
         padding: 10px 12px;
@@ -763,10 +904,14 @@ font-weight: bold;}
 
     }
 
+span{font-size: 12px;
+font-weight: bold;}
+
+
     h3{font-size: 16px;
         margin-top: 20px;}
 
-    h6{font-size: 15px;
+    h6{font-size: 13px;
     margin-top: 15px;}
 }
 
@@ -1007,3 +1152,90 @@ li{
 
 
 
+.aladin_footer_bottom{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bottomleft{
+    width: 700px;
+    height: 300px;
+
+    h3{font-size: 18px;
+        margin-top: 50px;
+    margin-left: 10px;}
+}
+
+.bottom_explain{
+    width: 700px;
+    height: 150px;
+
+p{font-size: 14px;
+    font-weight: 600;
+margin: 20px;
+letter-spacing: 1px;}
+
+}
+
+.bottom_safe{
+    width: 700px;
+    height: 50px;
+    display: flex;
+
+img{margin: 5px;}
+
+ h6{margin-top: 10px;
+margin-left: 12px;}
+font-size: 8px;
+}
+
+.bottomright{
+    width: 300px;
+    height: 300px;
+
+    h3{font-size: 18px;
+    margin-top: 50px;}
+    p{font-size: 12px;
+    margin-top: 20px;}
+}
+
+.bottom_notice{
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+
+    span{
+        margin: 2px;
+    display: inline-block;
+    width: 157px;
+    height: 36px;
+    border: 1px #E6E6E6 solid;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 34px;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-decoration: none;}
+}
+
+
+.bottom_time{
+    width: 300px;
+    height: 50px;
+
+
+    span{display: inline-block;
+        width: 100%;
+        height: 36px;
+        border: 1px #E6E6E6 solid;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 34px;
+        box-sizing: border-box;
+        font-size: 13px;
+        color: #333;}
+
+}
