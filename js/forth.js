@@ -20,6 +20,26 @@ $(".next").click(function () {
 
 
 
+$(".aladin_first_book .prev").click(function () {
+  $(".slidebox1 li:last").prependTo(".slidebox1");
+  $(".slidebox1").css("margin-left", "-33.33%");
+  $(".slidebox1").stop().animate({ marginLeft: 0 }, 500);
+});
+
+$(".aladin_first_book .next").click(function () {
+  $(".slidebox1")
+    .stop()
+    .animate({ marginLeft: "-33.33%" }, 500, function () {
+      $(".slidebox1 li:first").appendTo(".slidebox1");
+      $(".slidebox1").css({ marginLeft: 0 });
+    });
+});
+
+
+
+
+
+
 
 $(function () {
   $('.aladin_hoverbox').click(function () {
@@ -445,3 +465,45 @@ $.ajax({
       .append("<button>" + "장바구니 담기" + "</button>");
   }
 });
+
+
+
+$.ajax({
+  method: "GET",
+  url: "https://dapi.kakao.com/v3/search/book?target=title",
+  data: { query: "니체" },
+  headers: { Authorization: "KakaoAK 45941751e295b1ee1621bc1864a3716e" },
+}).done(function (msg) {
+  console.log(msg);
+
+  let origin = msg.documents;
+
+  //썸네일이 빈 문자열인것은 제외
+  let data = origin.filter((val) => {
+    return val.thumbnail != "";
+  });
+
+  console.log(data);
+
+  for (let i = 0; i < 9; i++) {
+    $(".slide1")
+      .eq(i)
+      .append("<img src='" + data[i].thumbnail + "'/>");
+    $(".slide1")
+      .eq(i)
+      .append("<h3>" + data[i].title + "</h3>");
+
+    var str = data[i].contents;
+    var str2 = str.substring(0, 0);
+
+    $(".slide1")
+      .eq(i)
+      .append("<p>" + str2 + "</p>");
+
+    $(".slide1")
+      .eq(i)
+      .append("<button>" + "장바구니 담기" + "</button>");
+  }
+});
+
+

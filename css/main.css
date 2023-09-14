@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap");
 * {
   margin: 0;
@@ -197,9 +198,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middle {
@@ -231,9 +244,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub1 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub1 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub2 {
@@ -259,9 +284,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub2 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub2 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub3 {
@@ -287,9 +324,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub3 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub3 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub4 {
@@ -315,9 +364,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub4 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub4 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub5 {
@@ -343,9 +404,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub5 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub5 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub6 {
@@ -371,9 +444,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub6 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub6 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub7 {
@@ -399,9 +484,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub7 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub7 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub8 {
@@ -427,9 +524,21 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub8 button {
-  background: #efeff8;
-  border-color: #efeff8;
-  color: #333;
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #df307f;
+  margin: 0;
+  padding: 17px 30px 17px 27px;
+}
+.aladin_first_middlesub8 button:hover {
+  box-shadow: inset 0px 100px 0px 0px #6098FF;
+  color: #ffffff;
 }
 
 .aladin_first_middlesub_bottom {
@@ -466,17 +575,82 @@ a {
   width: 1030px;
   height: 385px;
   margin: 0 auto;
-  display: flex;
+  overflow: hidden;
+  position: relative;
 }
 .aladin_first_book .left {
   width: 687px;
   height: 380px;
-  background-color: #dd2483;
+  float: left;
+}
+.aladin_first_book .left .slidebox1 {
+  width: 300%;
+  height: 380px;
+  overflow: hidden;
+  margin: 2px;
+}
+.aladin_first_book .left h3 {
+  font-size: 3px;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.aladin_first_book .left .slide1 {
+  width: 11.11%;
+  height: 250px;
+  float: left;
+}
+.aladin_first_book .left .slide1 img {
+  width: 80%;
+  height: 80%;
+}
+.aladin_first_book .left button {
+  outline: 0;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  line-height: 1.1;
+  display: block;
+  white-space: nowrap;
+  background: #333;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+}
+.aladin_first_book .left span {
+  position: absolute;
+  top: 30%;
+  display: block;
+  font-size: 38px;
+  color: #fff;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  height: 50px;
+  transform: translateY(-50%);
+}
+.aladin_first_book .left span:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+.aladin_first_book .left button:hover {
+  box-shadow: inset 0px 100px 0px 0px #3C5980;
+  color: #ffffff;
+}
+.aladin_first_book .left .prev {
+  left: 0;
+  border-radius: 10px;
+  padding: 0 8px 0 2px;
+}
+.aladin_first_book .left .next {
+  right: 0;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 .aladin_first_book .right {
   width: 305px;
   height: 350px;
-  margin: 0 auto;
+  float: right;
 }
 
 .aladin_rank {
@@ -493,7 +667,7 @@ a {
 }
 .aladin_rank .left h3 {
   width: 100%;
-  font-size: 18px;
+  font-size: 24px;
   color: #333;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -524,9 +698,28 @@ a {
   color: pink;
   margin: 0 5px;
 }
+.aladin_rank .left .new1 {
+  color: #dd2483;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0 15px;
+}
 .aladin_rank .left span {
   color: black;
   margin: 0 5px;
+}
+.aladin_rank .left .fa-solid {
+  margin: 0 15px;
+}
+.aladin_rank .left .prev {
+  left: 0;
+  border-radius: 10px;
+  padding: 0 8px 0 2px;
+}
+.aladin_rank .left .next {
+  right: 0;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 .aladin_rank .right {
   width: 190px;
@@ -576,17 +769,27 @@ a {
 
 .aladin_third_middle {
   width: 1030px;
-  height: 280px;
+  height: 315px;
   margin: 0 auto;
   margin-top: 30px;
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 .aladin_third_middle h3 {
-  font-size: 22px;
-  margin-bottom: 20px;
-  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+.aladin_third_middle .aladin_name {
+  font-size: 15px;
+  margin: 1px;
+  padding: 10px;
+  color: #fff;
   font-family: "Noto Sans KR", sans-serif;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .aladin_third_middle .slide {
   width: 300%;
@@ -596,6 +799,7 @@ a {
   width: 11.11%;
   height: 280px;
   float: left;
+  position: relative;
 }
 .aladin_third_middle .slide li img {
   width: 100%;
