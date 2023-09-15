@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+@import "reset", "common";
+
+
+//서브
+
+
+.aladin_subpage{
+    width: 1060px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .first_subpage{height: 130px;
+        width: 100%;
+        border-bottom: 1px solid gray;
+    
+    h3{font-size: 26px;
+        span{margin-left: 20px;    }
+    }
+    
+    span{font-size: 12px;
+    font-weight: bold;}
+
+    p{font-size: 14px;
+        font-weight: bold;}
+    }
+
+
+.firstbox{
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 0 8px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    margin-right: 5px;
+    font-family: Malgun Gothic,'Segoe WPC', 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, AppleGothic, Sans-serif;
+    border: 1px solid #e5e5e5;
+}
+
+.fa-solid{
+    margin: 10px;
+}
+
+
+
+
+    .subpage_picture{
+        width: 500px;
+        height: 700px;
+        background-color: yellow;
+      
+        img{width: 100%;
+        height: 100%;}
+    }
+
+    .subpage_text{
+        width: 560px;
+        height: 700px;
+        background-color: brown;
+    }
+
+}
+
+
+.aladin_twoimg{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+
+
+.leftimg{
+    width: 530px;
+    padding: 1px;
+     
+}
+
+.rightimg{
+    width: 530px;
+    padding: 1px;
+}
+
+img{width: 100%;}
+
+}
+
+
+.aladin_content1{
+    width: 1060px;
+    height: 210px;
+    background-color: coral;
+    margin: 0 auto;
+    display: flex;
+
+    h3{
+        font-size: 22px;
+    margin-top: 40px;}
+
+ul>li{float:left; margin: 0 10px;
+margin-top: 40px; margin-left: 50px; font-size: 17px;
+font-weight: 600; }
+
+}
+
+.aladin_content2{
+    width: 1060px;
+    height: 180px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+
+    h3{
+        font-size: 22px;
+    margin-top: 40px;}
+}
+
+.aladin_content3{
+    width: 1060px;
+    height: 180px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+
+.aladin_content4{
+    width: 1060px;
+    height: 370px;
+    background-color: brown;
+    margin: 0 auto;
+
+}
+
+
+.aladin_event{
+    width: 1060px;
+    height: 370px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+
+.aladin_table{
+    width: 1060px;
+    height: 900px;
+    background-color: darkred;
+    margin: 0 auto;
+}
+
+.aladintrade{
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+}
