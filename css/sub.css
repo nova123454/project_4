@@ -586,6 +586,30 @@ a {
   background-color: brown;
 }
 
+.text1 {
+  color: #f03c97;
+  font-weight: bold;
+}
+
+.texttop li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 3px 0;
+  margin: 0;
+}
+
+.textleft {
+  position: absolute;
+  left: 0;
+  width: 100px;
+}
+
+.textright {
+  margin-left: 100px;
+  width: 400px;
+  padding-bottom: 3px;
+}
+
 .aladin_twoimg {
   width: 1060px;
   margin: 0 auto;
