@@ -574,7 +574,6 @@ a {
 .aladin_subpage .subpage_picture {
   width: 500px;
   height: 700px;
-  background-color: yellow;
 }
 .aladin_subpage .subpage_picture img {
   width: 100%;
@@ -583,12 +582,13 @@ a {
 .aladin_subpage .subpage_text {
   width: 560px;
   height: 700px;
-  background-color: brown;
+  padding: 65px;
 }
 
 .text1 {
   color: #f03c97;
   font-weight: bold;
+  padding-bottom: 50px;
 }
 
 .texttop li {
@@ -604,10 +604,35 @@ a {
   width: 100px;
 }
 
+.inputbox {
+  padding: 10px 5px 10px 5px;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  color: #222;
+  width: 100px;
+  border: 1px solid gray;
+  float: left;
+}
+
+.imgright {
+  text-align: center;
+  border: 0;
+  margin-left: 160px;
+  padding: 1px 0;
+  width: 10px;
+  background: #f8f8f8;
+  border-left: 1px solid #cdcdcd;
+}
+
 .textright {
   margin-left: 100px;
   width: 400px;
-  padding-bottom: 3px;
+  padding-bottom: 20px;
+}
+.textright .pink_btn {
+  color: #f03c97;
+  font-weight: bold;
 }
 
 .aladin_twoimg {
@@ -630,9 +655,9 @@ a {
 .aladin_content1 {
   width: 1060px;
   height: 210px;
-  background-color: coral;
   margin: 0 auto;
   display: flex;
+  border-bottom: 1px solid gray;
 }
 .aladin_content1 h3 {
   font-size: 22px;
@@ -646,50 +671,483 @@ a {
   font-size: 17px;
   font-weight: 600;
 }
+.aladin_content1 span {
+  margin: 5px;
+  border: 1px solid #555;
+}
 
 .aladin_content2 {
   width: 1060px;
   height: 180px;
-  background-color: blue;
   margin: 0 auto;
   display: flex;
+  border-bottom: 1px solid gray;
 }
 .aladin_content2 h3 {
   font-size: 22px;
   margin-top: 40px;
 }
+.aladin_content2 ul > li {
+  float: left;
+  margin: 0 10px;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.button_2 {
+  width: 280px;
+  height: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+.button_2 .all {
+  background-color: #fafafa;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #fff9fa;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.button_2 .pick {
+  background-color: #fff9fa;
+  color: #df307f;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  margin: 0 5px;
+  padding: 2px;
+  display: block;
+  border: 1px solid #c82370;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.button_2 .pick2 {
+  background-color: #c82370;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #c82370;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
 
 .aladin_content3 {
   width: 1060px;
   height: 180px;
-  background-color: yellow;
   margin: 0 auto;
-  margin-top: 40px;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+.aladin_content3 h3 {
+  font-size: 22px;
+  margin-top: 50px;
+}
+.aladin_content3 ul > li {
+  margin: 0 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.button_3 {
+  width: 280px;
+  height: 30px;
+  display: flex;
+  margin-top: 25px;
+}
+.button_3 .all {
+  background-color: #fafafa;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #fff9fa;
+  cursor: pointer;
+}
+.button_3 .pick {
+  background-color: #fff9fa;
+  color: #df307f;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  margin: 0 5px;
+  padding: 2px;
+  display: block;
+  border: 1px solid #c82370;
+  cursor: pointer;
+}
+.button_3 .pick2 {
+  background-color: #c82370;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #c82370;
+  cursor: pointer;
 }
 
 .aladin_content4 {
   width: 1060px;
   height: 370px;
-  background-color: brown;
   margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+.aladin_content4 ul > li {
+  margin: 0 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.aladin_content4 dt {
+  margin-left: 100px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+.aladin_content4 dd {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.aladin_content4 .button_3 {
+  width: 280px;
+  height: 30px;
+  display: flex;
+  margin-top: 25px;
+}
+.aladin_content4 .button_3 .all {
+  background-color: #fafafa;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #fff9fa;
+  cursor: pointer;
+}
+.aladin_content4 .button_3 .pick {
+  background-color: #fff9fa;
+  color: #df307f;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  margin: 0 5px;
+  padding: 2px;
+  display: block;
+  border: 1px solid #c82370;
+  cursor: pointer;
+}
+.aladin_content4 .button_3 .pick2 {
+  background-color: #c82370;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #c82370;
+  cursor: pointer;
+}
+
+.button_4 {
+  width: 280px;
+  height: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 370px;
+}
+.button_4 .all {
+  background-color: #fafafa;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #fff9fa;
+  cursor: pointer;
+}
+.button_4 .pick {
+  background-color: #fff9fa;
+  color: #df307f;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  margin: 0 5px;
+  padding: 2px;
+  display: block;
+  border: 1px solid #c82370;
+  cursor: pointer;
+}
+.button_4 .pick2 {
+  background-color: #c82370;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic", sans-serif;
+  display: block;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #c82370;
+  cursor: pointer;
 }
 
 .aladin_event {
   width: 1060px;
-  height: 370px;
-  background-color: aqua;
+  height: 380px;
+  margin: 0 auto;
+}
+.aladin_event img {
+  width: 100%;
+  height: 100%;
+}
+
+.event_1 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.event_2 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: none;
+}
+
+.event_3 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: none;
+}
+
+.textbox {
+  width: 400px;
+  height: 200px;
+  margin: 30px 0 0 50px;
+  margin: 0 auto;
+}
+
+.textbox > h1 {
+  font-size: 20px;
+  background-color: #e5e5e5;
+  background-color: #e5e5e5;
+}
+
+.textbox > h3 {
+  font-size: 20px;
+  background-color: #e5e5e5;
+  background-color: #e5e5e5;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: #eee;
+}
+
+button:nth-of-type(1) {
+  margin: 0 0 0 60px;
+}
+
+button:hover {
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+}
+
+.aladin_longtext {
+  width: 1060px;
+  height: 4000px;
+  background-color: #666;
+  margin: 0 auto;
+}
+.aladin_longtext h3 {
+  font-size: 21px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#tmpBox {
+  width: 1000px;
+  height: 500px;
+  background: #eee;
+  float: left;
+  margin: 50px 0 0 50px;
+  color: #666;
+}
+
+.aladin_tv {
+  width: 1060px;
+  height: 700px;
+  background-color: green;
+  margin: 0 auto;
+}
+.aladin_tv h3 {
+  color: #0086cd;
+  font-size: 21px;
+}
+
+.aladin_bookple {
+  width: 1060px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.aladin_bookple h3 {
+  width: 100%;
+  color: #0086cd;
+  font-size: 21px;
+}
+
+.bookple_1 {
+  width: 820px;
+  height: 220px;
+  background-color: #c82370;
+}
+.bookple_1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.bookple_2 {
+  width: 820px;
+  height: 220px;
+  background-color: #c82370;
+}
+.bookple_2 img {
+  width: 80px;
+  height: 80px;
+}
+
+.bookple_3 {
+  width: 820px;
+  height: 220px;
+  background-color: #c82370;
+}
+.bookple_3 img {
+  width: 80px;
+  height: 80px;
+}
+
+.aladin_star {
+  width: 1060px;
+  height: 390px;
+  background-color: blue;
   margin: 0 auto;
 }
 
 .aladin_table {
-  width: 1060px;
-  height: 900px;
-  background-color: darkred;
+  width: 100%;
+  height: 700px;
   margin: 0 auto;
 }
 
-.aladintrade {
-  width: 250px;
-  height: 50px;
-  background-color: blue;
+.table_box {
+  width: 1060px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.table_box .tit_table1 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #f9f9f9;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+.table_box .tit_table2 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #ffffff;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+.table_box .tit_table3 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #f9f9f9;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+.table_box .tit_table4 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #ffffff;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+.table_box .tit_table5 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #f9f9f9;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+.table_box .tit_table6 {
+  margin: 0;
+  padding: 15px 20px;
+  background: #ffffff;
+  text-align: left;
+  color: #333;
+  font-family: "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
 }
