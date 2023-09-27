@@ -59,6 +59,13 @@ a {
   font-size: 13px;
 }
 
+.whitebox {
+  width: 60px;
+  height: 25px;
+  padding: 0 15px;
+  background-color: #0f4e8a;
+}
+
 .aladin_header_login {
   width: 300px;
   height: 40px;
@@ -87,7 +94,6 @@ a {
 .aladin_headersearch {
   width: 535px;
   height: 40px;
-  background-color: purple;
   margin: 0 auto;
   position: relative;
 }
@@ -98,7 +104,7 @@ a {
   transform: translateY(-50%);
   color: #2f9ddc;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
 }
 .aladin_headersearch .img1 {
   width: 535px;
@@ -120,7 +126,7 @@ a {
   border: 0;
   font-size: 15px;
   cursor: pointer;
-  right: 15px;
+  right: 13px;
 }
 .aladin_headersearch .img2 {
   position: absolute;
@@ -135,7 +141,7 @@ a {
   transform: translateY(-50%);
 }
 
-.ad box {
+.ad .box {
   border: none;
 }
 
@@ -154,7 +160,7 @@ a {
 }
 .aladin_header_bottom .l_menu li {
   margin: 0 6px;
-  font-size: 15px;
+  font-size: 13px;
 }
 .aladin_header_bottom .l_menu li img {
   vertical-align: middle;
@@ -166,7 +172,7 @@ a {
   color: #dd2483;
   font-weight: bold;
   padding: 0 6px 3px 8px;
-  line-height: 25px;
+  line-height: 32px;
 }
 .aladin_header_bottom .img {
   width: 170px;
@@ -536,12 +542,12 @@ a {
   flex-wrap: wrap;
 }
 .aladin_subpage .first_subpage {
-  height: 130px;
+  height: 100px;
   width: 100%;
   border-bottom: 1px solid gray;
 }
 .aladin_subpage .first_subpage h3 {
-  font-size: 26px;
+  font-size: 23px;
 }
 .aladin_subpage .first_subpage h3 span {
   margin-left: 20px;
@@ -557,15 +563,15 @@ a {
 .aladin_subpage .firstbox {
   display: inline-block;
   background: #ffffff;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0 8px;
-  height: 20px;
-  line-height: 20px;
+  height: 24px;
+  line-height: 22px;
   text-align: center;
   font-size: 11px;
   color: #555;
   margin-right: 5px;
-  font-family: Malgun Gothic, "Segoe WPC", "Segoe UI", "Apple SD Gothic Neo", Helvetica, AppleGothic, Sans-serif;
+  font-family: "Segoe WPC", "Segoe UI", "Apple SD Gothic Neo", Helvetica, Sans-serif;
   border: 1px solid #e5e5e5;
 }
 .aladin_subpage .fa-solid {
@@ -588,46 +594,25 @@ a {
 .text1 {
   color: #f03c97;
   font-weight: bold;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .texttop li {
   list-style: none;
   position: relative;
-  padding: 0 0 3px 0;
-  margin: 0;
+  padding: 0 0 8px 0;
+  margin: 0 5px;
 }
 
 .textleft {
   position: absolute;
   left: 0;
-  width: 100px;
-}
-
-.inputbox {
-  padding: 10px 5px 10px 5px;
-  font-family: "Malgun Gothic", sans-serif;
-  font-size: 16px;
-  margin: 0px;
-  color: #222;
-  width: 100px;
-  border: 1px solid gray;
-  float: left;
-}
-
-.imgright {
-  text-align: center;
-  border: 0;
-  margin-left: 160px;
-  padding: 1px 0;
-  width: 10px;
-  background: #f8f8f8;
-  border-left: 1px solid #cdcdcd;
+  width: 60px;
 }
 
 .textright {
   margin-left: 100px;
-  width: 400px;
+  width: 300px;
   padding-bottom: 20px;
 }
 .textright .pink_btn {
@@ -915,83 +900,20 @@ a {
   cursor: pointer;
 }
 
-.aladin_event {
-  width: 1060px;
-  height: 380px;
-  margin: 0 auto;
-}
-.aladin_event img {
-  width: 100%;
-  height: 100%;
-}
-
-.event_1 {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-}
-
-.event_2 {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  display: none;
-}
-
-.event_3 {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  display: none;
-}
-
-.textbox {
-  width: 400px;
-  height: 200px;
-  margin: 30px 0 0 50px;
-  margin: 0 auto;
-}
-
-.textbox > h1 {
-  font-size: 20px;
-  background-color: #e5e5e5;
-  background-color: #e5e5e5;
-}
-
-.textbox > h3 {
-  font-size: 20px;
-  background-color: #e5e5e5;
-  background-color: #e5e5e5;
-}
-
-button {
-  width: 50px;
-  height: 50px;
-  border: none;
-  margin: 0 auto;
-  border-radius: 50px;
-  background-color: #eee;
-}
-
-button:nth-of-type(1) {
-  margin: 0 0 0 60px;
-}
-
-button:hover {
-  background: #666;
-  color: #fff;
-  cursor: pointer;
-}
-
 .aladin_longtext {
   width: 1060px;
-  height: 4000px;
-  background-color: #666;
+  height: 6500px;
   margin: 0 auto;
 }
 .aladin_longtext h3 {
-  font-size: 21px;
+  font-size: 27px;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+.aladin_longtext h4 {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -1025,23 +947,24 @@ button:hover {
 .aladin_bookple h3 {
   width: 100%;
   color: #0086cd;
-  font-size: 21px;
+  font-size: 25px;
 }
 
 .bookple_1 {
   width: 820px;
   height: 220px;
-  background-color: #c82370;
 }
 .bookple_1 img {
   width: 80px;
   height: 80px;
 }
+.bookple_1 p {
+  font-size: 16px;
+}
 
 .bookple_2 {
   width: 820px;
   height: 220px;
-  background-color: #c82370;
 }
 .bookple_2 img {
   width: 80px;
@@ -1051,7 +974,6 @@ button:hover {
 .bookple_3 {
   width: 820px;
   height: 220px;
-  background-color: #c82370;
 }
 .bookple_3 img {
   width: 80px;

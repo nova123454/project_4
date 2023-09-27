@@ -49,6 +49,16 @@
     }
 }
 
+
+.whitebox{
+    width: 60px;
+    height: 25px;
+    padding: 0 15px;
+    background-color: #0f4e8a;
+}
+
+
+
 .aladin_header_login{
     width: 300px;
     height: 40px;
@@ -79,7 +89,6 @@
 .aladin_headersearch{
     width: 535px;
     height: 40px;
-    background-color: purple;
     margin: 0 auto;
     position: relative;
     dl{
@@ -88,7 +97,7 @@
         transform: translateY(-50%);
         color: #2f9ddc;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img1{
@@ -112,7 +121,7 @@
         border: 0;
         font-size: 15px;
         cursor: pointer;
-        right: 15px;
+        right: 13px;
 
     }
 .img2{position: absolute;
@@ -129,7 +138,7 @@
 }
 
 
-.ad box {border: none;
+.ad .box {border: none;
 
 }
 
@@ -151,7 +160,7 @@
 
 .l_menu li{
     margin: 0 6px;
-    font-size: 15px;
+    font-size: 13px;
     img{
         vertical-align: middle;
         padding: 0 5px;
@@ -164,7 +173,7 @@
     color: #dd2483;
     font-weight: bold;
     padding: 0 6px 3px 8px;
-    line-height: 25px;
+    line-height: 32px;
 }
 
 .img{

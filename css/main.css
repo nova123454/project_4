@@ -60,6 +60,13 @@ a {
   font-size: 13px;
 }
 
+.whitebox {
+  width: 60px;
+  height: 25px;
+  padding: 0 15px;
+  background-color: #0f4e8a;
+}
+
 .aladin_header_login {
   width: 300px;
   height: 40px;
@@ -88,7 +95,6 @@ a {
 .aladin_headersearch {
   width: 535px;
   height: 40px;
-  background-color: purple;
   margin: 0 auto;
   position: relative;
 }
@@ -99,7 +105,7 @@ a {
   transform: translateY(-50%);
   color: #2f9ddc;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
 }
 .aladin_headersearch .img1 {
   width: 535px;
@@ -121,7 +127,7 @@ a {
   border: 0;
   font-size: 15px;
   cursor: pointer;
-  right: 15px;
+  right: 13px;
 }
 .aladin_headersearch .img2 {
   position: absolute;
@@ -136,7 +142,7 @@ a {
   transform: translateY(-50%);
 }
 
-.ad box {
+.ad .box {
   border: none;
 }
 
@@ -155,7 +161,7 @@ a {
 }
 .aladin_header_bottom .l_menu li {
   margin: 0 6px;
-  font-size: 15px;
+  font-size: 13px;
 }
 .aladin_header_bottom .l_menu li img {
   vertical-align: middle;
@@ -167,7 +173,7 @@ a {
   color: #dd2483;
   font-weight: bold;
   padding: 0 6px 3px 8px;
-  line-height: 25px;
+  line-height: 32px;
 }
 .aladin_header_bottom .img {
   width: 170px;
@@ -554,15 +560,17 @@ a {
 }
 .aladin_first_middlesub h3 {
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
   height: 40px;
 }
 .aladin_first_middlesub button {
+  width: 160px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
+  border-radius: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic",  sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -572,7 +580,7 @@ a {
 }
 .aladin_first_middlesub button:hover {
   box-shadow: inset 0px 100px 0px 0px #6098FF;
-  color: #ffffff;
+  color: #fff;
 }
 
 .aladin_first_middle {
@@ -600,15 +608,17 @@ a {
 }
 .aladin_first_middlesub1 h3 {
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
   height: 40px;
 }
 .aladin_first_middlesub1 button {
   outline: 0;
+  width: 160px;
+  border-radius: 10px;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -646,9 +656,11 @@ a {
 .aladin_first_middlesub2 button {
   outline: 0;
   color: #FFF;
+  width: 160px;
+  border-radius: 10px;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family:  "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -684,11 +696,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub3 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family:  "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -724,11 +738,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub4 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -764,11 +780,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub5 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -804,11 +822,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub6 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family:  "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -844,11 +864,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub7 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -884,11 +906,13 @@ a {
   height: 40px;
 }
 .aladin_first_middlesub8 button {
+  width: 160px;
+  border-radius: 10px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
+  font-family: "Malgun Gothic", sans-serif;
   line-height: 1.1;
   display: block;
   white-space: nowrap;
@@ -905,7 +929,7 @@ a {
   width: 1030px;
   height: 60px;
   background-color: #0f4e8a;
-  opacity: 0.9;
+  opacity: 1.4;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -920,12 +944,13 @@ a {
   margin: 0 auto;
 }
 .aladin_hoverbox.active {
-  background-color: #3C5980;
+  background-color: #333;
+  opacity: 1.2;
   border-radius: 10px;
 }
 .aladin_hoverbox h3 {
-  line-height: 33px;
-  font-size: 13px;
+  line-height: 35px;
+  font-size: 12px;
   color: #fff;
   font-weight: bold;
   text-align: center;
@@ -947,41 +972,45 @@ a {
   width: 300%;
   height: 380px;
   overflow: hidden;
-  margin: 2px;
+  margin: 3px;
 }
 .aladin_first_book .left h3 {
   font-size: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   color: #333;
   font-family: "Noto Sans KR", sans-serif;
 }
 .aladin_first_book .left .slide1 {
   width: 11.11%;
-  height: 250px;
+  height: 300px;
   float: left;
 }
 .aladin_first_book .left .slide1 img {
-  width: 80%;
-  height: 80%;
+  margin-top: 5px;
+  width: 90%;
+  height: 90%;
 }
 .aladin_first_book .left button {
+  width: 180px;
+  border-radius: 5px;
   outline: 0;
   color: #FFF;
   font-size: 10px;
   font-weight: bold;
-  font-family: malgun, "Malgun Gothic", Dotum, 돋움, sans-serif;
-  line-height: 1.1;
+  font-family:  "Malgun Gothic", sans-serif;
+  line-height: 2.2;
   display: block;
   white-space: nowrap;
-  background: #333;
-  margin: 0;
+  background: #e24457;
+  margin: 0 15px;
   padding: 10px 10px 10px 10px;
 }
 .aladin_first_book .left span {
   position: absolute;
-  top: 30%;
+  top: 38%;
   display: block;
   font-size: 38px;
+  opacity: 1.5;
   color: #fff;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.6);
@@ -999,12 +1028,14 @@ a {
 }
 .aladin_first_book .left .prev {
   left: 0;
-  border-radius: 10px;
+  border-radius: 50px;
+  opacity: 1.5;
   padding: 0 8px 0 2px;
 }
 .aladin_first_book .left .next {
   right: 0;
-  border-radius: 10px;
+  border-radius: 50px;
+  opacity: 1.5;
   padding: 0 5px;
 }
 .aladin_first_book .right {
@@ -1024,10 +1055,11 @@ a {
 .aladin_rank .left {
   width: 836px;
   height: 258px;
+  margin-top: 10px;
 }
 .aladin_rank .left h3 {
   width: 100%;
-  font-size: 24px;
+  font-size: 25px;
   color: #333;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -1084,7 +1116,6 @@ a {
 .aladin_rank .right {
   width: 190px;
   height: 206px;
-  background-color: teal;
   margin: 0 auto;
 }
 
@@ -1092,6 +1123,7 @@ a {
   width: 100%;
   height: 130px;
   background-color: rgb(246, 208, 222);
+  margin-top: 10px;
 }
 
 .aladin_minisize1 {
@@ -1104,12 +1136,13 @@ a {
   width: 1030px;
   height: 390px;
   margin: 0 auto;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
 }
 .aladin_second_middle h3 {
   width: 100%;
-  font-size: 24px;
+  font-size: 23px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -1131,7 +1164,7 @@ a {
   width: 1030px;
   height: 315px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 50px;
   overflow: hidden;
   position: relative;
 }
@@ -1140,7 +1173,7 @@ a {
   font-weight: bold;
 }
 .aladin_third_middle .aladin_name {
-  font-size: 15px;
+  font-size: 14px;
   margin: 1px;
   padding: 10px;
   color: #fff;
@@ -1183,12 +1216,12 @@ a {
 }
 .aladin_third_middle .prev {
   left: 0;
-  border-radius: 10px;
-  padding: 0 8px 0 2px;
+  border-radius: 11px;
+  padding: 0 8px 0 2px; 
 }
 .aladin_third_middle .next {
   right: 0;
-  border-radius: 10px;
+  border-radius: 11px;
   padding: 0 5px;
 }
 
@@ -1196,7 +1229,7 @@ a {
   width: 1030px;
   height: 280px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 60px;
   display: flex;
 }
 .aladin_five_middle .aladin_fivetv {
@@ -1215,7 +1248,7 @@ a {
   width: 210px;
   height: 190px;
   margin: 0 auto;
-  margin: 3px;
+  margin: 0 3px;
 }
 .aladin_five_middle .aladin_fivetvbox img {
   width: 100%;
@@ -1224,25 +1257,27 @@ a {
   font-size: 15px;
 }
 .aladin_five_middle .aladin_fivetvbox p {
+  font-weight: bold;
   font-size: 13px;
   color: #2a68b9;
 }
 .aladin_five_middle .aladin_fivetvbox span {
   font-size: 13px;
+  font-weight: bold;
 }
 .aladin_five_middle .aladin_fivemeet {
   width: 370px;
   height: 250px;
 }
 .aladin_five_middle .aladin_fivemeet h3 {
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .fivemeettop {
   width: 280px;
   height: 101px;
   position: relative;
-  margin-left: 95px;
+  margin-left: 110px;
   border-bottom: 1px solid #E6E6E6;
 }
 
@@ -1260,19 +1295,19 @@ a {
   border: none;
 }
 .topimg .toptext h4 {
-  font-size: 15px;
-  margin: 10px;
+  font-size: 13px;
+  margin: 0 10px;
 }
 .topimg .toptext p {
   font-size: 13px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .fivemeetbottom {
   width: 280px;
   height: 101px;
   position: relative;
-  margin-left: 95px;
+  margin-left: 110px;
   border-bottom: 1px solid #E6E6E6;
 }
 
@@ -1289,9 +1324,9 @@ a {
 .bottomtext {
   margin: 0 auto;
   border: none;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .bottomtext h4 {
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 10px;
 }
